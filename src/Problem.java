@@ -13,7 +13,10 @@ import java.util.Random;
 public class Problem {
 	
 	public static void main(String[] args) {
-		System.out.println("DWADAW");
+		for (int i = 0; i < 100; i++) {
+			System.out.print(i + " ");
+		}
+		System.out.println();
 	}
 	
 
