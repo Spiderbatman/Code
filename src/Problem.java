@@ -15,5 +15,6 @@ public class Problem {
 		System.out.println();
 		Levani l = new Levani("levani", 20);
 		l.printInfo();
+		int a;
 	}
 }
