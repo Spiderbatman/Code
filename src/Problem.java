@@ -12,6 +12,10 @@ public class Problem {
 	public static void main(String[] args) {
 		Student st = new Student(20);
 		st.printInfo();
+		int c = 0;
+		for (int i = 0; i < 10; i++) {
+			c += i;
+		}
 		System.out.println();
 		Levani l = new Levani("levani", 20);
 		l.printInfo();
