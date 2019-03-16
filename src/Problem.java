@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
@@ -11,13 +9,11 @@ import java.util.PriorityQueue;
 import java.util.Random;
 
 public class Problem {
-	
 	public static void main(String[] args) {
-		for (int i = 0; i < 100; i++) {
-			System.out.print(i + " ");
-		}
+		Student st = new Student(20);
+		st.printInfo();
 		System.out.println();
+		Levani l = new Levani("levani", 20);
+		l.printInfo();
 	}
-	
-
 }
