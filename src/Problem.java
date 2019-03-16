@@ -11,10 +11,10 @@ import java.util.Random;
 public class Problem {
 	public static void main(String[] args) {
 		Student st = new Student(20);
-		st.printInfo();
+		
 		System.out.println();
 		Levani l = new Levani("levani", 20);
-		l.printInfo();
+		
 		int a;
 	}
 }
